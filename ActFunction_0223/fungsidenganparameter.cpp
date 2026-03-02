@@ -3,3 +3,13 @@
 using namespace std;
 //deklarasi variable global
 int panjang, lebar;
+//implementasi fungsi dan prosedur
+void input(){
+    cout << "Masukkan Panjang : ";
+    cin >> panjang;
+    cout << "Masukkan Lebar : ";
+    cin >> lebar;
+}
+int luaspersegi(int a,int b){
+    return a * b;
+}
