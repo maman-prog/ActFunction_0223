@@ -9,3 +9,8 @@ void ProsedurInputData(){
     cin >> d2;
 
 }
+
+float HitungLuasBerparameter(float d1, float d2)
+{
+    return 0.6 * d1 * d2;
+}
