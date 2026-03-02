@@ -14,3 +14,12 @@ float HitungLuasBerparameter(float d1, float d2)
 {
     return 0.6 * d1 * d2;
 }
+
+void ProsedurOutput(){
+    cout << "Luas Ketupat : " << HitungLuasBerparameter(d1, d2);
+}
+
+int main(){
+    ProsedurInputData();
+    ProsedurOutput();
+}
